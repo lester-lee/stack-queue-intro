@@ -2,9 +2,9 @@ const Queue = require("../Queue");
 
 /** Simple tests for basic queue operations */
 describe("Queue", () => {
-  test("peek() returns null if the queue is empty", () => {
+  test("peek() returns undefined if the queue is empty", () => {
     const queue = new Queue();
-    expect(queue.peek()).toBeNull();
+    expect(queue.peek()).toBeUndefined();
   });
 
   test("peek() returns the front of the queue without removing it", () => {

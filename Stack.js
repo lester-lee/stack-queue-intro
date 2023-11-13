@@ -22,8 +22,8 @@ class Stack {
 
   /**
    * Removes and returns the element at the top of the stack,
-   * or `null` if the stack is empty.
-   * @returns {T|null}
+   * or `undefined` if the stack is empty.
+   * @returns {T|undefined}
    */
   pop() {
     // TODO
@@ -31,8 +31,8 @@ class Stack {
 
   /**
    * Returns the element at the top of the stack _without_ removing it,
-   * or null if the stack is empty.
-   * @returns {T|null}
+   * or undefined if the stack is empty.
+   * @returns {T|undefined}
    */
   peek() {
     // TODO

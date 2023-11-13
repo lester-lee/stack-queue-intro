@@ -2,9 +2,9 @@ const Stack = require("../Stack");
 
 /** Simple tests for basic stack operations */
 describe("Stack", () => {
-  test("peek() returns null if the stack is empty", () => {
+  test("peek() returns undefined if the stack is empty", () => {
     const stack = new Stack();
-    expect(stack.peek()).toBeNull();
+    expect(stack.peek()).toBeUndefined();
   });
 
   test("peek() returns the top element of the stack without removing it", () => {

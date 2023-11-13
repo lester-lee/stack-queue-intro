@@ -22,8 +22,8 @@ class Queue {
 
   /**
    * Removes and returns the element at the front of the queue,
-   * or `null` if the queue is empty.
-   * @returns {T|null}
+   * or `undefined` if the queue is empty.
+   * @returns {T|undefined}
    */
   dequeue() {
     // TODO
@@ -31,8 +31,8 @@ class Queue {
 
   /**
    * Returns the element at the front of the queue _without_ removing it,
-   * or null if the queue is empty.
-   * @returns {T|null}
+   * or undefined if the queue is empty.
+   * @returns {T|undefined}
    */
   peek() {
     // TODO
